@@ -1,0 +1,30 @@
+﻿<html>
+<head>
+<title>test</title>
+<style>
+
+*{margin:0;padding:0}
+#div1{background-color:#f00}
+#div2{background-color:#ff0}
+#div3{background-color:#000}
+#div4{background-color:#f0f}
+</style>
+<script src="jquery-3.2.0.min.js">
+</script>
+<script>
+$(function(){
+var h;
+h=$(window).height();
+$('#div1').css("height",h);
+$('#div2').css("height",h);
+$('#div3').css("height",h);
+$('#div4').css("height",h);});
+</script>
+</head>
+<body>
+<div id="div1">1</div>
+<div id="div2">2</div>
+<div id="div3">3</div>
+<div id="div4">4</div>
+</body>
+</html>
